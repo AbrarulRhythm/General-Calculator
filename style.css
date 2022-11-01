@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Josefin Sans', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+/*font-family: 'Teko', sans-serif;*/
+
+.container {
+    text-align: center;
+    /* margin-top: 23px; */
+    width: 1140px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+body {
+    background: #008ef32b;
+}
+
+
+section {
+    padding: 55px 0px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: auto;
+    margin-top: 16px;
+}
+
+table tbody tr td button:hover {
+    background: #fb5200;
+    color: #fff;
+}
+
+.calculator:hover table tbody tr td button {
+    border-color: #fb54008e;
+}
+
+.calculator .nth-child-three .cButton button {
+    background: #df1c1c;
+    color: #fff;
+    border-color: #df1c1c;
+}
+
+.calculator .nth-child-three .cButton button:hover {
+    background: #ff0000;
+    border-color: #ff0000;
+}
+
+.calculator:hover table tbody .tr-last-child .td-last-child button {
+    border-color: #0DC043;
+}
+
+
+td.td-last-child button {
+    background: #0DC043;
+    border-color: #0DC043;
+    color: #fff;
+}
+
+
+td.td-last-child button:hover {
+    background: #05f94f;
+    border-color: #05f94f;
+}
+
+span {
+    position: absolute;
+    top: 166px;
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid #244624;
+    font-size: 34px;
+    height: 45px;
+    width: 357px;
+    padding: 10px;
+    background: #ddd;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 35px;
+    background: #ddd;
+    width: 80px;
+    height: 75px;
+    margin: 4px;
+    transition: .3s;
+}
+
+.calculator {
+    border: 3px solid #fb5200;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    padding-top: 35px;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 25px;
+}
